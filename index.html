@@ -3,618 +3,276 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iury Henrique | Portfólio</title>
+  <title>Iury Henrique | Desenvolvedor Full Stack</title>
+  <meta name="description" content="Portfólio de Iury Henrique Nascimento de Almeida, desenvolvedor full stack com experiência em sistemas web, automações, SaaS e integrações com IA.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body id="top">
-  <div class="blur-blob blob-1"></div>
-  <div class="blur-blob blob-2"></div>
-  <div class="blur-blob blob-3"></div>
+  <div class="bg-glow glow-left" aria-hidden="true"></div>
+  <div class="bg-glow glow-right" aria-hidden="true"></div>
 
-  <header>
+  <header class="site-header">
     <nav class="nav" aria-label="Navegação principal">
-      <div class="logo">
-        <span class="dot"></span>
-        <span>Portfólio - Iury Henrique</span>
-      </div>
+      <a class="brand" href="#top">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Iury Henrique</span>
+      </a>
       <div class="nav-links">
-        <a href="#destaques">Destaques</a>
-        <a href="#identidade">Identidade</a>
         <a href="#sobre">Sobre</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#stack-tecnico">Stack Técnico</a>
+        <a href="#formacao">Formação</a>
         <a href="#stack">Stack</a>
-        <a href="#ia">IA aplicada</a>
-        <a href="#produto">Produto</a>
-        <a href="#impacto">MVPs</a>
+        <a href="#n8n">n8n</a>
         <a href="#projetos">Projetos</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#automacoes">Automações</a>
-        <a href="#metricas">Métricas</a>
-        <a href="#xyworks">XY Works</a>
-        <a href="#roadmap">Roadmap</a>
+        <a href="#negocios">Negócios</a>
         <a href="#contato">Contato</a>
       </div>
+      <a class="btn btn-sm" href="https://github.com/iuxyog" target="_blank" rel="noopener">GitHub</a>
     </nav>
 
     <section class="hero">
-      <div class="hero-card hero-intro">
-        <div class="eyebrow"><i class="fa-solid fa-cube"></i> Builder / Product Engineer</div>
-        <h1>Iury Henrique Nascimento de Almeida</h1>
-        <p class="hero-role">Desenvolvedor de Produto & Automação</p>
-        <p class="hero-statement">Construo ferramentas digitais simples para resolver problemas reais.</p>
-        <div class="chips">
-          <span class="chip">HTML, CSS e JavaScript</span>
-          <span class="chip">Automação n8n</span>
-          <span class="chip">MVPs orientados a produto</span>
-          <span class="chip">IA aplicada e integrações</span>
-        </div>
-        <p class="meta">Transformo necessidades do dia a dia em produtos digitais, painéis e automações que aceleram times e decisões.</p>
-        <div class="cta-nav hero-actions">
-          <a class="btn primary" href="https://github.com/iuxyog" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
-          <a class="btn" href="#contato"><i class="fa-solid fa-paper-plane"></i> Fale comigo</a>
-        </div>
-      </div>
-      <div class="hero-card hero-photo">
-        <div class="badge"><i class="fa-solid fa-location-dot"></i> Nova Serrana - MG</div>
-        <img src="assets/img/foto.jpeg" alt="Foto de Iury Henrique">
-      </div>
-      <div class="hero-card hero-summary">
-        <div class="eyebrow"><i class="fa-solid fa-circle-info"></i> Em poucas linhas</div>
-        <p class="tagline">Crio produtos digitais simples de operar e mantenho a infraestrutura básica em ordem.</p>
-        <ul>
-          <li>Hoje na Value, criando ferramentas internas e integrações para operação.</li>
-          <li>Foco em MVPs rápidos, UX clara e automação com n8n.</li>
-          <li>Projetos autorais com a marca XY tools para otimizar sellers na Shopee.</li>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><i class="fa-solid fa-code"></i> Desenvolvedor Full Stack</p>
+        <h1>Soluções Full Stack para escalar operações.</h1>
+        <p class="hero-lead">Desenvolvedor Full Stack focado em sistemas web, automações e produtos SaaS. Transformo gargalos operacionais em soluções objetivas, escaláveis e com foco em resultado.</p>
+
+        <ul class="hero-tags" aria-label="Stack principal">
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Node.js</li>
+          <li>Next.js</li>
+          <li>n8n</li>
+          <li>SQL</li>
+          <li>APIs REST</li>
+          <li>IA (LLMs)</li>
         </ul>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contato"><i class="fa-solid fa-paper-plane"></i> Falar comigo</a>
+          <a class="btn" href="#projetos"><i class="fa-solid fa-folder-open"></i> Ver projetos</a>
+        </div>
       </div>
+
+      <aside class="hero-profile reveal" aria-label="Perfil profissional">
+        <div class="profile-visual">
+          <img src="assets/img/eu.jpg" alt="Foto de Iury Henrique" loading="eager">
+        </div>
+        <div class="profile-card">
+          <strong>Iury Henrique N. Almeida</strong>
+          <p>22 anos</p>
+          <p>Foco em SaaS, automação e sistemas web escaláveis</p>
+        </div>
+        <ul class="profile-signals">
+          <li><i class="fa-solid fa-diagram-project"></i> n8n e integrações</li>
+          <li><i class="fa-solid fa-server"></i> Arquitetura modular</li>
+          <li><i class="fa-solid fa-gauge-high"></i> Performance orientada a produto</li>
+        </ul>
+      </aside>
     </section>
   </header>
 
   <main>
-    <section id="destaques">
-      <h2><i class="fa-solid fa-gauge-high"></i> Destaques rápidos</h2>
-      <div class="stats">
-        <div class="stat-card">
-          <div class="stat-value">3+ anos</div>
-          <div class="stat-label">Entre TI, suporte e desenvolvimento web aplicado a produto.</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">12+ soluções</div>
-          <div class="stat-label">Apps internos, automações e painéis prontos para operação.</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">n8n first</div>
-          <div class="stat-label">Fluxos para reduzir trabalho manual e integrar sistemas.</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">MVPs reais</div>
-          <div class="stat-label">Produtos simples, entregues rápido e evoluídos com uso.</div>
-        </div>
+    <section id="sobre" class="panel reveal">
+      <h2>Perfil Profissional</h2>
+      <p>Atuo com desenvolvimento full stack e experiência prática em TI, suporte técnico e administração de servidores. Meu trabalho é construir soluções digitais que simplificam processos, reduzem erros e aumentam a eficiência da operação.</p>
+      <div class="highlights">
+        <article>
+          <h3>Foco técnico</h3>
+          <p>Sistemas web, APIs, automações e estruturação de SaaS.</p>
+        </article>
+        <article>
+          <h3>Foco de negócio</h3>
+          <p>Resolver problemas reais com soluções diretas e escaláveis.</p>
+        </article>
+        <article>
+          <h3>Foco de entrega</h3>
+          <p>Performance, organização de código e evolução contínua.</p>
+        </article>
       </div>
     </section>
 
-    <section id="identidade">
-      <h2><i class="fa-solid fa-id-card-clip"></i> Identidade & Marca</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>Identidade</strong>
-          <div class="meta">Iury Henrique Nascimento de Almeida</div>
-          <div class="meta">Marca pessoal: XY tools (derivada do nick Iuxy)</div>
-          <div class="meta">Desenvolvedor web | Automação & Ferramentas | TI</div>
-        </div>
-        <div class="card">
-          <strong>Localização</strong>
-          <div class="meta"><i class="fa-solid fa-location-dot"></i> Nova Serrana - MG</div>
-          <strong>Contato direto</strong>
-          <div class="meta"><i class="fa-solid fa-envelope"></i> iuryalmeida188@gmail.com</div>
-          <div class="meta"><i class="fa-solid fa-phone"></i> (33) 93509-5487</div>
-        </div>
-        <div class="card">
-          <strong>Links</strong>
-          <div class="meta"><i class="fa-brands fa-github"></i> github.com/iuxyog</div>
-          <div class="meta"><i class="fa-solid fa-globe"></i> iuxyog.github.io/portfolio-teste</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="sobre">
-      <h2><i class="fa-solid fa-user"></i> Sobre mim</h2>
-      <p class="meta">Quem eu sou e como ajudo</p>
-      <p>Sou desenvolvedor web e profissional de TI focado em tirar problemas da frente do time: construo páginas, dashboards e automações que deixam processos claros, rápidos e sustentáveis.</p>
-      <p>Hoje atuo na Value criando ferramentas internas e integrações com n8n. Trabalho com mentalidade de produto, pensando em MVPs validáveis e IA aplicada para acelerar tarefas repetitivas.</p>
-      <div class="two-col">
-        <div class="card">
-          <strong>Proposta de valor</strong>
+    <section id="formacao" class="panel reveal">
+      <h2>Formação e Estudos</h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Base</h3>
           <ul>
-            <li>Produtos digitais enxutos, com UX clara e dados fáceis de ler.</li>
-            <li>Rotinas manuais viram fluxos automatizados (n8n e integrações).</li>
-            <li>Trabalho próximo da operação para garantir adoção real.</li>
+            <li>Estudos na área de tecnologia e desenvolvimento web</li>
+            <li>Conhecimento em arquitetura de sistemas</li>
+            <li>Aprendizado contínuo orientado à prática</li>
           </ul>
-        </div>
-        <div class="card">
-          <strong>Quando acionar</strong>
+        </article>
+        <article class="skill-card">
+          <h3>Estudo contínuo</h3>
           <ul>
-            <li>Quando o time precisa de um painel ou ferramenta interna para ganhar velocidade.</li>
-            <li>Quando há retrabalho manual que pode virar automação.</li>
-            <li>Quando é preciso documentar e dar suporte para quem usa as soluções.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="habilidades">
-      <h2><i class="fa-solid fa-screwdriver-wrench"></i> Habilidades</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>Web</strong>
-          <ul>
-            <li>HTML5, CSS3, JavaScript</li>
-            <li>Desenvolvimento de ferramentas e painéis web</li>
-            <li>Hospedagem em GitHub Pages</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Automações & Integrações</strong>
-          <ul>
-            <li>Automação com n8n</li>
-            <li>Integração de processos e sistemas</li>
-            <li>Criação de fluxos para operações digitais</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Operações & Suporte</strong>
-          <ul>
-            <li>Suporte técnico e manutenção de computadores</li>
-            <li>Operações em marketplaces (Shopee)</li>
-            <li>Documentação e acompanhamento de usuários</li>
-          </ul>
-        </div>
-      </div>
-      <p class="section-subtitle">Stack principal</p>
-      <ul class="list-inline">
-        <li class="pill"><i class="fa-brands fa-html5"></i> HTML</li>
-        <li class="pill"><i class="fa-brands fa-css3-alt"></i> CSS</li>
-        <li class="pill"><i class="fa-brands fa-js"></i> JavaScript</li>
-        <li class="pill"><i class="fa-brands fa-node-js"></i> Node.js</li>
-        <li class="pill"><i class="fa-solid fa-plug"></i> APIs</li>
-        <li class="pill"><i class="fa-solid fa-diagram-project"></i> n8n</li>
-        <li class="pill"><i class="fa-brands fa-git-alt"></i> Git/GitHub</li>
-        <li class="pill"><i class="fa-solid fa-cloud"></i> GitHub Pages</li>
-      </ul>
-    </section>
-
-    <section id="stack-tecnico">
-      <h2><i class="fa-solid fa-code"></i> Stack Técnico & Tecnologias</h2>
-      <p class="section-subtitle">Visão completa do ciclo: interface → backend → dados → automação → operação.</p>
-      <div class="grid">
-        <div class="card">
-          <strong>Stack principal</strong>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git / GitHub</li>
+            <li>Desenvolvimento Full Stack</li>
             <li>APIs REST</li>
+            <li>Integração com Inteligência Artificial</li>
+            <li>Estruturação de SaaS</li>
+            <li>Automação de processos</li>
+            <li>Banco de dados relacionais</li>
+            <li>Serviços em nuvem</li>
           </ul>
-        </div>
-        <div class="card">
-          <strong>Backend & Dados</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="panel reveal">
+      <h2>Stack e Tecnologias</h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Stack Principal</h3>
           <ul>
-            <li>PHP (APIs, painéis administrativos, integrações)</li>
-            <li>SQL (MySQL / PostgreSQL)</li>
-            <li>Modelagem de dados</li>
-            <li>CRUDs</li>
-            <li>Autenticação básica</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Automação & Integrações</strong>
-          <ul>
-            <li>n8n</li>
-            <li>Webhooks</li>
-            <li>Integrações entre sistemas</li>
-            <li>Automação de processos operacionais</li>
-            <li>Ferramentas internas</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Infraestrutura & Operação</strong>
-          <ul>
-            <li>GitHub Pages</li>
-            <li>Deploy básico</li>
-            <li>Organização de projetos</li>
-            <li>Documentação técnica</li>
-            <li>Suporte e operação de sistemas</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Em evolução / Aprendizado contínuo</strong>
-          <ul>
-            <li>Node.js</li>
+            <li>JavaScript</li>
             <li>TypeScript</li>
-            <li>IA aplicada a produtos</li>
-            <li>Arquitetura de SaaS</li>
+            <li>Node.js</li>
+            <li>Next.js</li>
+            <li>n8n</li>
+            <li>SQL</li>
+            <li>APIs REST</li>
+            <li>Integração com APIs externas</li>
+            <li>Integração com IA (LLMs)</li>
           </ul>
-        </div>
+        </article>
+        <article class="skill-card">
+          <h3>Outras tecnologias e conhecimentos</h3>
+          <ul>
+            <li>HTML e CSS</li>
+            <li>Python para automação e scripts</li>
+            <li>Web Scraping</li>
+            <li>Autenticação e controle de acesso</li>
+            <li>Arquitetura modular</li>
+            <li>Programação orientada a objetos</li>
+            <li>Programação assíncrona (async/await, promises)</li>
+            <li>Dashboards administrativos</li>
+            <li>SaaS com planos e controle de créditos</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <section id="stack">
-      <h2><i class="fa-solid fa-layer-group"></i> Stack & Arquitetura</h2>
-      <p class="section-subtitle">Arquitetura simples, modular e pronta para evoluir com o produto.</p>
-      <div class="grid">
-        <div class="card">
-          <strong>Frontend orientado a produto</strong>
-          <div class="meta">HTML, CSS e JavaScript com foco em responsividade, clareza visual e performance.</div>
-          <ul>
-            <li>Componentização simples e reutilizável.</li>
-            <li>Layout responsivo e UX objetiva.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Backend e lógica de negócio</strong>
-          <div class="meta">Node.js e APIs para regras, integrações e serviços internos.</div>
-          <ul>
-            <li>Endpoints REST e webhooks para automações.</li>
-            <li>Dados organizados para dashboards e relatórios.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Automação e integrações</strong>
-          <div class="meta">n8n como orquestrador de fluxos entre sistemas.</div>
-          <ul>
-            <li>Triggers, rotinas agendadas e alertas.</li>
-            <li>Conectores com planilhas, e-mail e APIs.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Versionamento e entrega</strong>
-          <div class="meta">Git/GitHub para controle, revisão e histórico.</div>
-          <ul>
-            <li>Branches por feature e revisão antes de publicar.</li>
-            <li>Commits claros e documentação enxuta.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Organização de projeto</strong>
-          <div class="meta">Separação de responsabilidades e base preparada para crescimento.</div>
-          <ul>
-            <li>Frontend e backend desacoplados.</li>
-            <li>Estrutura pronta para refatoração e escala.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="ia">
-      <h2><i class="fa-solid fa-robot"></i> Automação & IA aplicada</h2>
-      <p class="section-subtitle">Uso automação e IA para remover gargalos e liberar tempo do time.</p>
-      <div class="grid">
-        <div class="card">
-          <strong>IA para acelerar conteúdo e análise</strong>
-          <ul>
-            <li>Rascunhos de comunicação, respostas e documentação.</li>
-            <li>Sumarização de dados e geração de insights rápidos.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Processos manuais viram fluxos</strong>
-          <ul>
-            <li>Alertas, rotinas de atualização e tarefas recorrentes.</li>
-            <li>Padronização de entradas para reduzir erros.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Integrações e ferramentas internas</strong>
-          <ul>
-            <li>APIs, webhooks e planilhas como fontes de dados.</li>
-            <li>Dashboards para visibilidade diária da operação.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="produto">
-      <h2><i class="fa-solid fa-compass-drafting"></i> Mentalidade de produto</h2>
-      <p class="section-subtitle">Foco em MVP, validação rápida e evolução contínua.</p>
-      <div class="two-col">
-        <div class="card">
-          <strong>Como penso o produto</strong>
-          <ul>
-            <li>MVP enxuto com validação rápida.</li>
-            <li>UX simples para gerar adoção real.</li>
-            <li>Prioridade em impacto e tempo de resposta.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Como evoluo o produto</strong>
-          <ul>
-            <li>Feedback do time vira melhorias de curto prazo.</li>
-            <li>Código preparado para crescer sem refatorações dolorosas.</li>
-            <li>Métricas claras para orientar próximas versões.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="experiencia">
-      <h2><i class="fa-solid fa-briefcase"></i> Experiência</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <strong>Value - Desenvolvedor / TI (Atual)</strong> <span class="badge-outline"><i class="fa-solid fa-gears"></i> Ferramentas internas</span>
-          <ul>
-            <li>Desenvolvimento de ferramentas internas e aplicações web.</li>
-            <li>Soluções de automação de processos e apoio técnico.</li>
-            <li>Atuação prática como desenvolvedor junto ao time.</li>
-          </ul>
-        </div>
-        <div class="timeline-item">
-          <strong>SESTAPE - Técnico em TI (Experiência anterior)</strong> <span class="badge-outline"><i class="fa-solid fa-headset"></i> Suporte</span>
-          <ul>
-            <li>Suporte técnico a usuários e manutenção de computadores.</li>
-            <li>Apoio em rotinas de TI e sistemas em ambiente institucional.</li>
-            <li>Atendimento direto e resolução de chamados.</li>
-          </ul>
-        </div>
-        <div class="timeline-item">
-          <strong>Projetos próprios / Vendas Online</strong> <span class="badge-outline"><i class="fa-solid fa-cart-shopping"></i> Shopee</span>
-          <ul>
-            <li>Desenvolvimento de ferramentas web para operações em marketplaces.</li>
-            <li>Dropshipping, criação e otimização de anúncios.</li>
-            <li>Gestão de vendas e performance de produtos.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="processo">
-      <h2><i class="fa-solid fa-route"></i> Como trabalho</h2>
-      <div class="process">
-        <div class="card">
-          <strong>1. Entender a operação</strong>
-          <div class="meta">Mapeio a rotina, gargalos e objetivos de negócio.</div>
-        </div>
-        <div class="card">
-          <strong>2. Prototipar rápido</strong>
-          <div class="meta">Esboço telas e fluxos simples para validar com o time.</div>
-        </div>
-        <div class="card">
-          <strong>3. Construir e integrar</strong>
-          <div class="meta">Código limpo + automações (n8n) + integração com ferramentas usadas.</div>
-        </div>
-        <div class="card">
-          <strong>4. Entregar e suportar</strong>
-          <div class="meta">Implantação, documentação curta e acompanhamento de uso.</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="impacto">
-      <h2><i class="fa-solid fa-rocket"></i> Projetos em Produção / MVPs</h2>
-      <p class="section-subtitle">Projetos que nasceram para resolver problemas reais e já rodaram em operação.</p>
-      <div class="grid">
-        <div class="card">
-          <strong>XY tools - Operação Shopee</strong>
-          <p class="meta"><strong>Problema:</strong> gestão manual de pedidos, estoque e margem.</p>
-          <p class="meta"><strong>Solução:</strong> painel web + automações de alertas e métricas.</p>
-          <p class="meta"><strong>Tecnologias:</strong> HTML, CSS, JavaScript, n8n, webhooks, planilhas.</p>
-          <p class="meta"><strong>Impacto:</strong> visão diária da operação, menos retrabalho e decisões mais rápidas.</p>
-        </div>
-        <div class="card">
-          <strong>Portal de solicitações internas</strong>
-          <p class="meta"><strong>Problema:</strong> demandas de TI dispersas e sem rastreio.</p>
-          <p class="meta"><strong>Solução:</strong> portal único para abertura e acompanhamento de chamados.</p>
-          <p class="meta"><strong>Tecnologias:</strong> HTML, CSS, JavaScript, integrações com planilhas e e-mail.</p>
-          <p class="meta"><strong>Impacto:</strong> organização das solicitações e melhor tempo de resposta.</p>
-        </div>
-        <div class="card">
-          <strong>Painel operacional de métricas</strong>
-          <p class="meta"><strong>Problema:</strong> indicadores espalhados e baixa visibilidade do status.</p>
-          <p class="meta"><strong>Solução:</strong> dashboard consolidado com KPIs e alertas.</p>
-          <p class="meta"><strong>Tecnologias:</strong> JavaScript, APIs, n8n e automações de coleta.</p>
-          <p class="meta"><strong>Impacto:</strong> rotina de acompanhamento clara e base pronta para escala.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="projetos">
-      <h2><i class="fa-solid fa-folder-open"></i> Projetos</h2>
-      <div class="grid">
-        <div class="card project">
-          <i class="fa-solid fa-bolt"></i>
-          <div>
-            <strong>XY tools - Automação para sellers Shopee <span class="pill"><i class="fa-solid fa-rocket"></i> Em evolução</span></strong>
-            <div class="meta">Projeto autoral com identidade XY tools</div>
-            <ul>
-              <li>Painel de margem e vendas com visão diária e semanal.</li>
-              <li>Etiquetas 10x15, controle de anúncios e visão de estoque.</li>
-              <li>Automação: alertas de pedidos, atualização de status e coleta de métricas via n8n.</li>
-            </ul>
-            <div class="list-inline">
-              <span class="pill"><i class="fa-solid fa-chart-line"></i> Insights em tempo real</span>
-              <span class="pill"><i class="fa-solid fa-robot"></i> n8n + webhooks</span>
-              <span class="pill"><i class="fa-solid fa-tags"></i> Gestão de anúncios</span>
-            </div>
+    <section id="n8n" class="panel reveal">
+      <h2>Automação com n8n</h2>
+      <p>Uso n8n para transformar tarefas manuais em fluxos automatizados, conectando sistemas, APIs e processos internos.</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-head">
+            <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+            <h3>Integrações e Webhooks</h3>
           </div>
-        </div>
-        <div class="card project">
-          <i class="fa-solid fa-laptop-code"></i>
-          <div>
-            <strong>Portal de solicitações internas</strong>
-            <div class="meta">Aplicação web leve para organizar demandas de TI</div>
-            <ul>
-              <li>Formulário único para abrir chamados e acompanhar status.</li>
-              <li>Integração com planilhas e notificações automáticas.</li>
-            </ul>
-            <div class="list-inline">
-              <span class="pill"><i class="fa-solid fa-globe"></i> Deploy contínuo</span>
-              <span class="pill"><i class="fa-solid fa-layer-group"></i> Stack HTML/CSS/JS</span>
-            </div>
+          <ul>
+            <li>Consumo e envio de dados por APIs REST</li>
+            <li>Automação por gatilhos com Webhooks</li>
+            <li>Sincronização entre plataformas e planilhas</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <i class="fa-solid fa-gears" aria-hidden="true"></i>
+            <h3>Fluxos Operacionais</h3>
           </div>
-        </div>
+          <ul>
+            <li>Rotinas automáticas para reduzir retrabalho</li>
+            <li>Padronização de etapas e validação de dados</li>
+            <li>Notificações e acompanhamento de status</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+            <h3>Impacto na operação</h3>
+          </div>
+          <ul>
+            <li>Menos erro manual e mais previsibilidade</li>
+            <li>Processos mais rápidos e organizados</li>
+            <li>Base pronta para escalar com SaaS</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <section id="automacoes">
-      <h2><i class="fa-solid fa-wand-magic-sparkles"></i> Automações em andamento</h2>
-      <p class="section-subtitle">Fluxos que estou construindo no n8n para operações e vendas</p>
-      <div class="process">
-        <div class="card">
-          <strong>Pedidos e alertas</strong>
-          <div class="meta">Webhooks + Shopee API + notificações (email/Discord) para pedidos novos.</div>
+    <section id="projetos" class="panel reveal">
+      <h2>Projetos Desenvolvidos</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-head">
+            <i class="fa-solid fa-tags" aria-hidden="true"></i>
+            <h3>XY Tools - Etiquetas Shopee</h3>
+          </div>
+          <p>Ferramenta real em produção para recorte automático de etiquetas Shopee e ganho de velocidade na operação.</p>
           <ul>
-            <li>Criação de tickets rápidos para separar envio.</li>
-            <li>Envio de status para o cliente com templates prontos.</li>
+            <li>Organização de pedidos</li>
+            <li>Geração de etiquetas padronizadas</li>
+            <li>Redução de erros operacionais</li>
+            <li>Otimização de processos internos</li>
           </ul>
-        </div>
-        <div class="card">
-          <strong>Estoque e anúncios</strong>
-          <div class="meta">Sincronização de estoque e vitrine de anúncios com planilhas.</div>
+          <div class="project-links">
+            <a class="btn btn-sm btn-primary" href="https://iuxyog.github.io/xy-tools/" target="_blank" rel="noopener">
+              <i class="fa-solid fa-up-right-from-square"></i> Abrir XY Tools
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <i class="fa-solid fa-robot" aria-hidden="true"></i>
+            <h3>Plataforma SaaS com IA para Marketplace</h3>
+          </div>
+          <p>Plataforma para geração automática de anúncios com estrutura preparada para escalar.</p>
           <ul>
-            <li>Atualização automática de SKUs e preços.</li>
-            <li>Checklist para manter anúncios ativos e alinhados.</li>
+            <li>Geração de títulos e descrições com IA</li>
+            <li>Pesquisa de mercado e análise de concorrência</li>
+            <li>Organização por workspace</li>
+            <li>Sistema de planos e créditos</li>
           </ul>
-        </div>
-        <div class="card">
-          <strong>Dados e performance</strong>
-          <div class="meta">Coleta diária de métricas em planilhas/DB para dashboards.</div>
-          <ul>
-            <li>KPIs principais: vendas, margem, cancelamentos, SLA de envio.</li>
-            <li>Export em CSV e envio diário para o time.</li>
-          </ul>
-        </div>
+          <div class="project-links">
+            <a class="btn btn-sm btn-primary" href="https://www.valueaistudio.com/assinar" target="_blank" rel="noopener">
+              <i class="fa-solid fa-up-right-from-square"></i> Abrir Value AI
+            </a>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="metricas">
-      <h2><i class="fa-solid fa-chart-line"></i> Métricas & Resultados</h2>
-      <p class="section-subtitle">Indicadores qualitativos de impacto gerado na operação.</p>
-      <div class="stats">
-        <div class="stat-card">
-          <div class="stat-value">Menos retrabalho</div>
-          <div class="stat-label">Automação de fluxos que reduzem tarefas repetitivas e erros manuais.</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">Processos claros</div>
-          <div class="stat-label">Solicitações organizadas, status visível e acompanhamento simples.</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">MVP funcional</div>
-          <div class="stat-label">Entrega rápida de soluções que já operam no dia a dia.</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value">Base escalável</div>
-          <div class="stat-label">Arquitetura preparada para crescer com novas integrações.</div>
-        </div>
+    <section id="negocios" class="panel reveal">
+      <h2>Experiência com Negócios</h2>
+      <div class="highlights">
+        <article>
+          <h3>Vendas online</h3>
+          <p>Venda de produtos online no segmento de calçados.</p>
+        </article>
+        <article>
+          <h3>Marketplace e logística</h3>
+          <p>Entendimento de operação de marketplace e fluxo logístico.</p>
+        </article>
+        <article>
+          <h3>Visão de produto</h3>
+          <p>Estruturação de projetos próprios com foco em SaaS.</p>
+        </article>
       </div>
     </section>
 
-    <section id="boas-praticas">
-      <h2><i class="fa-solid fa-shield-halved"></i> Automações, Boas Práticas e Segurança</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>Controle de acesso</strong>
-          <ul>
-            <li>Login e perfis conforme necessidade do projeto.</li>
-            <li>Permissões claras para cada time e fluxo.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Git e organização de repositórios</strong>
-          <ul>
-            <li>Branches por feature e histórico de mudanças.</li>
-            <li>Boas práticas de commit e revisão.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Separação frontend/backend</strong>
-          <ul>
-            <li>Interfaces desacopladas da lógica de negócio.</li>
-            <li>APIs para garantir manutenção e escalabilidade.</li>
-          </ul>
-        </div>
-        <div class="card">
-          <strong>Código preparado para evolução</strong>
-          <ul>
-            <li>Padrões simples, consistentes e refatoráveis.</li>
-            <li>Documentação curta para acelerar onboarding.</li>
-          </ul>
-        </div>
+    <section id="contato" class="panel panel-contact reveal">
+      <h2>Contato</h2>
+      <p>Disponível para projetos Full Stack, automações, SaaS e integrações com IA.</p>
+      <div class="contact-list">
+        <a href="mailto:iuryalmeida188@gmail.com"><i class="fa-solid fa-envelope"></i> iuryalmeida188@gmail.com</a>
+        <a href="tel:+5533935095487"><i class="fa-solid fa-phone"></i> (33) 93509-5487</a>
+        <a href="https://github.com/iuxyog" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> github.com/iuxyog</a>
       </div>
-    </section>
-
-    <section id="extras">
-      <h2><i class="fa-solid fa-sparkles"></i> Informações adicionais</h2>
-      <ul>
-        <li>Aprendizado rápido e autodidata.</li>
-        <li>Boa comunicação e proatividade.</li>
-        <li>Facilidade com redes sociais e ferramentas digitais.</li>
-        <li>Disponível para novos desafios profissionais.</li>
-      </ul>
-    </section>
-
-    <section id="xyworks">
-      <h2><i class="fa-solid fa-building"></i> XY Works</h2>
-      <p class="section-subtitle">Empresa em construção, com base técnica e visão de longo prazo.</p>
-      <div class="two-col">
-        <div class="card">
-          <strong>Visão e propósito</strong>
-          <p class="meta">A XY Works é uma empresa em construção, fundada com foco no desenvolvimento de ferramentas digitais, automação e soluções baseadas em tecnologia.</p>
-          <p class="meta">A empresa nasce da prática: planejamento, testes, aprendizado contínuo e desenvolvimento de MVPs funcionais.</p>
-        </div>
-        <div class="card">
-          <strong>Planos futuros</strong>
-          <ul>
-            <li>Evolução de MVPs internos para produtos completos.</li>
-            <li>Criação de ferramentas de automação e IA aplicada.</li>
-            <li>Desenvolvimento de soluções SaaS.</li>
-            <li>Crescimento gradual e estruturado.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="roadmap">
-      <h2><i class="fa-solid fa-map"></i> Roadmap</h2>
-      <p class="section-subtitle">Próximos passos para evoluir soluções e ampliar impacto.</p>
-      <div class="process">
-        <div class="card">
-          <strong>Evoluir MVPs existentes</strong>
-          <div class="meta">Refinar UX, métricas e integrações com base no uso real.</div>
-        </div>
-        <div class="card">
-          <strong>Novos módulos de automação</strong>
-          <div class="meta">Expandir fluxos para mais áreas e reduzir tarefas manuais.</div>
-        </div>
-        <div class="card">
-          <strong>IA aplicada à operação</strong>
-          <div class="meta">Gerar insights, respostas rápidas e apoio à tomada de decisão.</div>
-        </div>
-        <div class="card">
-          <strong>Aprimorar backend e APIs</strong>
-          <div class="meta">Mais governança de dados, logs e integrações escaláveis.</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contato">
-      <h2><i class="fa-solid fa-paper-plane"></i> Contato</h2>
-      <div class="contact-grid">
-        <div class="contact-item"><i class="fa-solid fa-envelope"></i> <a href="mailto:iuryalmeida188@gmail.com">iuryalmeida188@gmail.com</a></div>
-        <div class="contact-item"><i class="fa-solid fa-phone"></i> (33) 93509-5487</div>
-        <div class="contact-item"><i class="fa-brands fa-github"></i> <a href="https://github.com/iuxyog" target="_blank" rel="noopener">github.com/iuxyog</a></div>
-        <div class="contact-item"><i class="fa-solid fa-globe"></i> <a href="https://iuxyog.github.io/portfolio-teste/" target="_blank" rel="noopener">iuxyog.github.io/portfolio-teste/</a></div>
-      </div>
-      <div class="cta-nav section-actions">
-        <a class="btn primary" href="#top"><i class="fa-solid fa-arrow-up"></i> Voltar ao topo</a>
-      </div>
+      <a class="btn btn-primary" href="#top"><i class="fa-solid fa-arrow-up"></i> Voltar ao topo</a>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Iury Henrique. Portfólio profissional.</p>
+  </footer>
+
   <script src="assets/js/main.js"></script>
 </body>
 </html>
